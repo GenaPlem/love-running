@@ -228,6 +228,13 @@ main {
     margin-top: 20px;
 }
 
+.radio_buttons > div > label,
+.radio_buttons > div > input,
+.join_button {
+    cursor: pointer;
+}
+
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
