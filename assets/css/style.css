@@ -102,6 +102,50 @@ main {
     color: #ffffff;
 }
 
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons > h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
+#benefits div {
+    line-height: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits-mental > div, #benefits-physical > div {
+    margin-bottom: 20px;
+}
+
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle-cover-bg {
+    background: url("../images/reasons-image.webp") no-repeat top center/cover;
+    width: 90vw;
+    height: 90vw;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
